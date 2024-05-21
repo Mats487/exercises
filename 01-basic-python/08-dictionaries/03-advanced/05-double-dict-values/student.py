@@ -1,1 +1,5 @@
-# Write your code here
+def double_dict_values(dictionary):
+    doubled_dict = {}
+    for k, v in dictionary.items():
+        doubled_dict[k] = v * 2
+    return doubled_dict
